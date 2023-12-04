@@ -4,8 +4,8 @@ import os
 import torch
 # Function to return Hugging Face token
 def get_token() -> str:
-    # Ensure to keep your token secure and not expose it in your code
-    return os.environ.get("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") 
+   
+    return os.environ.get("YOUR_TOKEN_HERE") 
 
 # Function to create and return images directly
 def create_img(prompt: str):
